@@ -40,7 +40,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <TitlePage title="Recuperar tributos" description={[]} />
-                <div className="text-lg space-y-4 mt-6">
+                <div className="text-lg space-y-4 mt-6 text-justify">
                   <ParagraphSection>
                     Muitas empresas continuam pagando PIS/COFINS sobre produtos
                     monofásicos sem perceber. Esse erro pode significar milhares
@@ -77,7 +77,7 @@ export default function Home() {
                           <li>
                             ✅ Processo administrativo, sem risco judicial.
                           </li>
-                          <li>✅ Direito consolidado pelo STJ.</li>
+                          <li>✅ Direito consolidado pelo STF.</li>
                           <li>✅ Melhoria no fluxo de caixa da empresa.</li>
                         </ul>
                       </div>
@@ -131,25 +131,25 @@ export default function Home() {
             <h2 className="text-5xl text-center font-extrabold text-[#14532d] mb-12">
               Sobre a recuperação tributária
             </h2>
-            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6">
+            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
               {' '}
               A tributação do PIS e COFINS foi criada para concentrar a cobrança
               desses impostos no fabricante ou no importador, com alíquotas mais
               altas, de forma que o varejo e o atacado não precisem recolher
               novamente sobre a venda dos mesmos produtos.
             </p>
-            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6">
+            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
               Na prática, porém, muitas empresas do Simples Nacional continuam
               recolhendo indevidamente PIS/COFINS em suas operações, o que gera
               valores pagos a mais que podem ser recuperados. Essa recuperação é
               100% amparada pela legislação.
             </p>
-            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6">
-              Além disso, o Superior Tribunal de Justiça (STJ) já firmou
+            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
+              Além disso, o Superior Tribunal Federal (STF) já firmou
               entendimento de que o PIS e a COFINS não podem ser cobrados
               novamente de atacadistas e varejistas em produtos monofásicos.
             </p>{' '}
-            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6">
+            <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
               👉 Isso significa que sua empresa pode, de forma administrativa,
               simples e segura, recuperar os valores pagos a maior nos últimos 5
               anos, corrigidos pela taxa SELIC.
@@ -175,6 +175,15 @@ export default function Home() {
               <FaWhatsapp /> Solicitar diagnóstico
             </a>
           </div>
+        </section>
+
+        <section className="bg-white py-10">
+          <h2 className="text-2xl text-center font-extrabold text-teal-800 mb-2">
+            Cases de sucesso
+          </h2>
+          <h2 className="text-2xl text-center font-extrabold text-teal-800 mb-12">
+            Inserir os cases de sucesso e % de recuperação para cada segmento
+          </h2>
         </section>
       </div>
     </>
