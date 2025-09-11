@@ -16,7 +16,7 @@ export default function Home() {
           className="bg-hero relative w-full aspect-[16/9] bg-cover bg-center overflow-visible scroll-m-40"
         />
 
-        <h1 className="text-center my-12 font-bold text-5xl text-[#14532d]">
+        <h1 className="text-center mb-12 font-bold text-5xl text-white bg-teal-500 p-8">
           Você sabia que a sua empresa pode ter tributos a recuperar?
         </h1>
 
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[#f9fafb] py-16">
+        <section className="bg-gray-100 py-16">
           <h2 className="text-2xl text-center font-extrabold text-teal-800 mb-2">
             Descubra se sua empresa tem tributos a recuperar. O diagnóstico é
             gratuito
