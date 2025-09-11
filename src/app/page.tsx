@@ -145,7 +145,7 @@ export default function Home() {
               100% amparada pela legislação.
             </p>
             <p className="font-bold text-slate-700 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
-              Além disso, o Superior Tribunal Federal (STF) já firmou
+              Além disso, o Supremo Tribunal Federal (STF) já firmou
               entendimento de que o PIS e a COFINS não podem ser cobrados
               novamente de atacadistas e varejistas em produtos monofásicos.
             </p>{' '}
