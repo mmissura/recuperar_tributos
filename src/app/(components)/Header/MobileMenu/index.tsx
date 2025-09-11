@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
 import Image from 'next/image';
 
-import Logo1 from '../../../../../public/logo.png';
+import Logo1 from '../../../../../public/logo-1.png';
 
 import MenuValues from '../menu.json';
 import { handleMenuScroll } from '@/app/(utils)/MenuScroll';
@@ -38,7 +38,7 @@ export function MobileMenu() {
               key={menu.id}
               type="button"
               onClick={() => handleLink(menu.id)}
-              className="w-full max-w-[250px] mx-auto bg-[#14532d] hover:bg-[#14532d] hover:text-black transition-all duration-500 px-6 py-2 border-2 rounded-full"
+              className="w-full max-w-[250px] mx-auto bg-teal-500 hover:bg-teal-600 hover:text-black transition-all duration-500 px-6 py-2 border-2 rounded-full"
             >
               <li className="transition-all ease-linear duration-200 ml-0 hover:ml-3 ">
                 {menu.name}

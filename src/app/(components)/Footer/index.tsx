@@ -5,7 +5,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 export function Footer() {
   const getYear = new Date().getFullYear();
   return (
-    <footer className="w-full bg-teal-700 text-white">
+    <footer className="w-full bg-slate-500 text-white">
       <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-center gap-6">
         <div className="flex items-center gap-3 text-sm hover:text-gray-200 transition-all">
           <BsWhatsapp size={22} />
@@ -42,10 +42,10 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="bg-teal-700 text-center text-sm py-4 px-6">
+      <div className="bg-slate-500 text-center text-sm py-4 px-6">
         <p>
-          &copy; {getYear} Missura Networks. Todos os direitos reservados.{' '}
-          <br />
+          &copy; {getYear} Missura Consultoria Tributária. Todos os direitos
+          reservados. <br />
           CNPJ: 53.447.302/0001-79
         </p>
       </div>

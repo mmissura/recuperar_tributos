@@ -18,9 +18,9 @@ declare global {
 }
 
 export const metadata: Metadata = {
-  applicationName: 'Recuperar tributos',
-  title: 'Recuperar tributos',
-  description: 'Recuperar tributos',
+  applicationName: 'Missura Consultoria Tributária',
+  title: 'Missura Consultoria Tributária',
+  description: 'Missura Consultoria Tributária',
   keywords: [
     'palavra chave',
     'palavra chave',
@@ -40,12 +40,15 @@ export const metadata: Metadata = {
     'palavra chave',
   ],
   authors: [
-    { name: 'Recuperar tributos', url: 'https://recuperartributos.com.br' },
+    {
+      name: 'Missura Consultoria Tributária',
+      url: 'https://recuperartributos.com.br',
+    },
   ],
-  creator: 'Recuperar tributos',
+  creator: 'Missura Consultoria Tributária',
   openGraph: {
-    title: 'Recuperar tributos',
-    description: 'Recuperar tributos',
+    title: 'Missura Consultoria Tributária',
+    description: 'Missura Consultoria Tributária',
   },
 };
 

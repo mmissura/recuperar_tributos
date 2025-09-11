@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo1 from '../../../../../public/logo.png';
+import Logo1 from '../../../../../public/logo-1.png';
 import { DesktopMenu } from '../DesktopMenu';
 import { MobileMenu } from '../MobileMenu';
 import { FaWhatsapp } from 'react-icons/fa6';
@@ -16,7 +16,7 @@ export function Navbar() {
           <Link href="/">
             <Image
               src={Logo1}
-              width={250}
+              width={200}
               alt="Missura Networks"
               title="Missura Networks"
             />
