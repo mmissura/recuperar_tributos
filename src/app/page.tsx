@@ -39,16 +39,16 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <TitlePage title="Recuperar tributos" description={[]} />
-                <div className="text-lg space-y-4 mt-6 text-justify">
-                  <ParagraphSection>
+                <div className="text-lg space-y-4 mt-6 text-left md:text-justify">
+                  <ParagraphSection className="text-left md:text-justify">
                     Muitas empresas continuam pagando PIS/COFINS sobre produtos
                     monofásicos sem perceber. Esse erro pode significar milhares
                     de reais pagos indevidamente nos últimos 5 anos.
                   </ParagraphSection>
-                  <ParagraphSection className="font-bold text-2xl text-[#14532d]">
+                  <ParagraphSection className="font-bold text-2xl text-[#14532d] text-left md:text-justify">
                     O que fazemos por você?
                   </ParagraphSection>
-                  <ul className="font-semibold text-teal-700 space-y-2">
+                  <ul className="font-semibold text-teal-700 space-y-2 text-left md:text-justify">
                     <li>
                       ✅ Analisamos todas as notas e cupons fiscais emitidos nos
                       últimos 5 anos.
@@ -72,7 +72,7 @@ export default function Home() {
 
                   <div className="mt-12">
                     <TitlePage title="Benefícios" description={[]} />
-                    <div className="text-lg space-y-4 mt-6">
+                    <div className="text-lg space-y-4 mt-6 text-left md:text-justify">
                       <ul className="font-semibold text-teal-700 space-y-2">
                         <li>✅ Recuperação de valores esquecidos.</li>
                         <li>✅ Processo administrativo, sem risco judicial.</li>
@@ -98,24 +98,24 @@ export default function Home() {
             <h2 className="text-5xl text-center font-extrabold text-white mb-12">
               Sobre a recuperação tributária
             </h2>
-            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
+            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-left md:text-justify">
               A tributação do PIS e COFINS foi criada para concentrar a cobrança
               desses impostos no fabricante ou no importador, com alíquotas mais
               altas, de forma que o varejo e o atacado não precisem recolher
               novamente sobre a venda dos mesmos produtos.
             </p>
-            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
+            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-left md:text-justify">
               Na prática, porém, muitas empresas do Simples Nacional continuam
               recolhendo indevidamente PIS/COFINS em suas operações, o que gera
               valores pagos a mais que podem ser recuperados. Essa recuperação é
               100% amparada pela legislação.
             </p>
-            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
+            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-left md:text-justify">
               Além disso, o Superior Tribunal de Justiça (STJ) já firmou
               entendimento de que o PIS e a COFINS não podem ser cobrados
               novamente de atacadistas e varejistas em produtos monofásicos.
             </p>
-            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-justify">
+            <p className="font-bold text-white 2xl:text-xl xl:text-xl text-lg mb-6 text-left md:text-justify">
               👉 Isso significa que sua empresa pode, de forma administrativa,
               simples e segura, recuperar os valores pagos a maior nos últimos 5
               anos, corrigidos pela taxa SELIC.
